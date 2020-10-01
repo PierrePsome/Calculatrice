@@ -210,5 +210,17 @@ window.addEventListener("keydown", function(event) {
             }
             indic.innerText += temp2 += " = ";
     }
-   
   });
+
+  let btns = document.querySelectorAll('.btn1');
+  
+  let tablo = Array.from(btns)
+
+  tablo.forEach(element => {
+      element.onclick = function () {
+            TweenMax.to(cont2, 0.5, {width: "90%"})
+            TweenMax.to(input, 0.2, {opacity: 1, delay: 0.5})
+        }
+    
+  });
+  

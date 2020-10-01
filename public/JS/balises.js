@@ -29,5 +29,3 @@ for (let i=1; i< 17; i++) {
     btn.setAttribute('class', 'btn1');
     btn.innerText = i
 };
-
-
