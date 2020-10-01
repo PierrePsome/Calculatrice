@@ -30,7 +30,7 @@ body {background-color: rgb(48, 48, 48);}
 #cont2 {
     position: absolute;
     background-color: white;
-    width: 0%;
+    width: 90%;
     height: 20%;
     top: 5%;
     overflow: hidden;
@@ -86,7 +86,7 @@ body {background-color: rgb(48, 48, 48);}
     height: 100%;
     border: none;
     left: 5%;
-    opacity: 0;
+    background-color: white;
 }
 
 

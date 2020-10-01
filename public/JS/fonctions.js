@@ -156,10 +156,10 @@ btnegale.addEventListener('click', () => {
 
 window.addEventListener("keydown", function(event) {
     let str = event.key;
-    if (str == "1" || str == "2" || str == "3" || str == "4" || str == "5" || str == "6" || str == "7" || str == "8" || str == "9" || str == "0") {
+    if (str == "1" || str == "2" || str == "3" || str == "4" || str == "5" || str == "6" || str == "7" || str == "8" || str == "9" || str == "0" ) {
     input.value += str;
     }
-   
+
   });
 
   window.addEventListener("keydown", function(event) {
@@ -210,17 +210,5 @@ window.addEventListener("keydown", function(event) {
             }
             indic.innerText += temp2 += " = ";
     }
-  });
-
-  let btns = document.querySelectorAll('.btn1');
-  
-  let tablo = Array.from(btns)
-
-  tablo.forEach(element => {
-      element.onclick = function () {
-            TweenMax.to(cont2, 0.5, {width: "90%"})
-            TweenMax.to(input, 0.2, {opacity: 1, delay: 0.5})
-        }
-    
   });
   
